@@ -1,0 +1,319 @@
+# Instincts generated from https://github.com/alfredo-compulabsperu/ecc-tools-poc
+# Generated: 2026-06-30T08:05:19.020Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: ecc-tools-poc-commit-conventional
+trigger: "when writing a commit message"
+confidence: 0.85
+domain: git
+source: repo-analysis
+source_repo: https://github.com/alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Commit Conventional
+
+## Action
+
+Use conventional commit format with prefixes: chore
+
+## Evidence
+
+- 1 commits analyzed
+- Detected conventional commit pattern
+- Examples: chore: initial codebase for ECC Tools POC
+
+---
+id: ecc-tools-poc-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Commit Length
+
+## Action
+
+Keep commit messages concise (~41 characters)
+
+## Evidence
+
+- Average commit message length: 41 chars
+- Based on 1 commits
+
+---
+id: ecc-tools-poc-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Naming Files
+
+## Action
+
+Use PascalCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: PascalCase
+
+---
+id: ecc-tools-poc-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: ecc-tools-poc-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: ecc-tools-poc-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: ecc-tools-poc-instinct-file-naming
+trigger: "When creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Instinct File Naming
+
+## Action
+
+Name the file using PascalCase
+
+## Evidence
+
+- Pattern in namingConventions.files: PascalCase
+
+---
+id: ecc-tools-poc-instinct-function-naming
+trigger: "When defining a new function"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Instinct Function Naming
+
+## Action
+
+Name the function using camelCase
+
+## Evidence
+
+- Pattern in namingConventions.functions: camelCase
+
+---
+id: ecc-tools-poc-instinct-class-naming
+trigger: "When defining a new class"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Instinct Class Naming
+
+## Action
+
+Name the class using PascalCase
+
+## Evidence
+
+- Pattern in namingConventions.classes: PascalCase
+
+---
+id: ecc-tools-poc-instinct-constant-naming
+trigger: "When declaring a constant"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Instinct Constant Naming
+
+## Action
+
+Name the constant using SCREAMING_SNAKE_CASE
+
+## Evidence
+
+- Pattern in namingConventions.constants: SCREAMING_SNAKE_CASE
+
+---
+id: ecc-tools-poc-instinct-import-style
+trigger: "When importing modules"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Instinct Import Style
+
+## Action
+
+Use relative import paths
+
+## Evidence
+
+- Pattern in importStyle: relative
+
+---
+id: ecc-tools-poc-instinct-export-style
+trigger: "When exporting code elements"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Instinct Export Style
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- Pattern in exportStyle: named
+
+---
+id: ecc-tools-poc-instinct-git-commit-prefix
+trigger: "When writing a commit message"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Instinct Git Commit Prefix
+
+## Action
+
+Prefix the message with 'chore:'
+
+## Evidence
+
+- Seen in commit: 'chore: initial codebase for ECC Tools POC'
+- Pattern in commits.prefixes: chore
+
+---
+id: ecc-tools-poc-instinct-git-commit-format
+trigger: "When writing a commit message"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Instinct Git Commit Format
+
+## Action
+
+Follow conventional commit format: <type>: <description>
+
+## Evidence
+
+- Pattern in commits.type: conventional
+- Seen in commit: 'chore: initial codebase for ECC Tools POC'
+
+---
+id: ecc-tools-poc-instinct-test-location
+trigger: "When adding or organizing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Instinct Test Location
+
+## Action
+
+Place tests in a separate folder from source code
+
+## Evidence
+
+- Pattern in architecture.folderStructure.testLocation: separate
+
+---
+id: ecc-tools-poc-instinct-scripts-folder
+trigger: "When adding utility scripts"
+confidence: 0.7
+domain: architecture
+source: repo-analysis
+source_repo: alfredo-compulabsperu/ecc-tools-poc
+---
+
+# Ecc Tools Poc Instinct Scripts Folder
+
+## Action
+
+Place scripts in the 'scripts' folder
+
+## Evidence
+
+- Pattern in architecture.folderStructure.commonFolders: scripts
+

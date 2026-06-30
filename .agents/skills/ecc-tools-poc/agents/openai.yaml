@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ecc Tools Poc"
+  short_description: "Repo-specific patterns and workflows for ecc-tools-poc"
+  default_prompt: "Use the ecc-tools-poc repo skill to follow existing architecture, testing, and workflow conventions."
+policy:
+  allow_implicit_invocation: true
